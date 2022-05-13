@@ -19,8 +19,7 @@ inputs.forEach(input => {
 
     if(isNaN(inputValue.value)){
       showError();
-      setTimeout(clearError, 4000)
-      return;
+      setTimeout(clearError, 3000)
     };
 
     switch(inputValue){
